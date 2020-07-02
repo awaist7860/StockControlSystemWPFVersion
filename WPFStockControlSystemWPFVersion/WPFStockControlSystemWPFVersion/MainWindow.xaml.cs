@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -27,7 +28,9 @@ namespace WPFStockControlSystemWPFVersion
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            string hello = "Hello world";
             MessageBox.Show("Hello World");
+            label1.Content = hello;
         }
     }
 }
