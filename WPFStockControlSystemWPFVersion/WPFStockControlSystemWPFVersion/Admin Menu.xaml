@@ -5,8 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFStockControlSystemWPFVersion"
         mc:Ignorable="d"
-        Title="Admin_Menu" Height="450" Width="800">
+        Title="Admin_Menu" Height="255" Width="200">
     <Grid>
-        
+        <Button Content="Users" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="65" Height="65">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF3FFFC2" Offset="1"/>
+                    <GradientStop Color="#FF00FFAE"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="View&#xD;&#xA;Tables" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="65" Height="65" Background="#FF00FF97"/>
+        <Button Content="Test&#xD;&#xA;Form" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="65" Height="65" Background="#FF00FF74"/>
+        <Label Content="Admin Menu" HorizontalAlignment="Center" Margin="43,85,-31,0" RenderTransformOrigin="0.5,0.5" FontSize="30" Width="180" VerticalAlignment="Top">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
     </Grid>
 </Window>
