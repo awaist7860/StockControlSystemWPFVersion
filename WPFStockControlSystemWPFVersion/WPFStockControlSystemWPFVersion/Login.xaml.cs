@@ -19,18 +19,21 @@ namespace WPFStockControlSystemWPFVersion
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Login : Window
     {
-        public MainWindow()
+        public Login()
         {
             InitializeComponent();
         }
 
+        private void Password_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string hello = "Hello world";
-            MessageBox.Show("Hello World");
-            label1.Content = hello;
+
         }
     }
 }
