@@ -41,7 +41,7 @@ namespace WPFStockControlSystemWPFVersion
                 //Method 1
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
-                dataGridView1.DataSource = dt;
+                dataGridView1.ItemsSource = dt.DefaultView;
             }
             catch (Exception f)
             {
