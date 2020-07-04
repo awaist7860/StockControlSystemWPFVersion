@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFStockControlSystemWPFVersion"
         mc:Ignorable="d"
-        Title="UsersFormAdmin" Height="450" Width="800">
+        Title="UsersFormAdmin" Height="665" Width="449.919">
     <Grid>
-        
+        <DataGrid x:Name="dataGridView1" HorizontalAlignment="Left" Height="380" Margin="10,41,0,0" VerticalAlignment="Top" Width="422"/>
+        <Label x:Name="titleForUsers" Content="Add or Delete Users" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="209"/>
+        <Button x:Name="btnViewUsers" Content="View Users" HorizontalAlignment="Left" Margin="10,436,0,0" VerticalAlignment="Top" Width="90" Height="40" Background="#FF52E23B" BorderBrush="{x:Null}" BorderThickness="0" Click="btnViewUsers_Click"/>
+        <Label x:Name="usernameLbl" Content="Username: " HorizontalAlignment="Left" Margin="10,481,0,0" VerticalAlignment="Top" Width="70"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="23" Margin="10,512,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="passwordLbl" Content="Password:" HorizontalAlignment="Left" Margin="135,481,0,0" VerticalAlignment="Top" Width="70"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="135,512,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cmbAdmin" HorizontalAlignment="Left" Margin="260,512,0,0" VerticalAlignment="Top" Width="83" Height="23"/>
+        <Label x:Name="adminLbl" Content="Admin Access" HorizontalAlignment="Left" Margin="260,481,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAddUser" Content="ADD" HorizontalAlignment="Left" Margin="348,512,0,0" VerticalAlignment="Top" Width="75" Height="23" BorderBrush="{x:Null}" BorderThickness="0" Click="btnAddUser_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFAEFF00"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="txtDelUserName" HorizontalAlignment="Left" Height="23" Margin="10,592,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="usernameDelLbl" Content="Username: " HorizontalAlignment="Left" Margin="10,561,0,0" VerticalAlignment="Top" Width="70"/>
+        <Button x:Name="btnDeleteUser" Content="DELETE USER" HorizontalAlignment="Left" Margin="135,592,0,0" VerticalAlignment="Top" Width="84" Height="23" Background="#FFE47878" BorderBrush="Black" Click="btnDeleteUser_Click"/>
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="357,549,0,0" VerticalAlignment="Top" Width="75" Height="75" Foreground="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Cursor="Hand" Click="button1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="New Project (2).png"/>
+            </Button.Background>
+        </Button>
+
     </Grid>
 </Window>
