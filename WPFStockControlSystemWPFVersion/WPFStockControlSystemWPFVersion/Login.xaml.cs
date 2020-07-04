@@ -44,10 +44,10 @@ namespace WPFStockControlSystemWPFVersion
             {
                 //startConnection();
                 con.Open();
-                SqlDataAdapter sda = new SqlDataAdapter("SELECT * FROM Users WHERE Username = '" + Username.Text + "' AND Password = '" + Password.Text + "' AND AdminAccess = 'Yes'", con);
+                SqlDataAdapter sda = new SqlDataAdapter("SELECT * FROM Users WHERE Username = '" + Username.Text + "' AND Password = '" + Password.Password + "' AND AdminAccess = 'Yes'", con);
                 con.Close();
                 con.Open();
-                SqlDataAdapter sda2 = new SqlDataAdapter("SELECT * FROM Users WHERE Username = '" + Username.Text + "' AND Password = '" + Password.Text + "' AND AdminAccess = 'No'", con);
+                SqlDataAdapter sda2 = new SqlDataAdapter("SELECT * FROM Users WHERE Username = '" + Username.Text + "' AND Password = '" + Password.Password + "' AND AdminAccess = 'No'", con);
                 con.Close();
 
                 DataTable dt = new DataTable();

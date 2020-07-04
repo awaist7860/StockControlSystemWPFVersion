@@ -11,7 +11,6 @@
     </Window.Effect>
     <Grid>
         <TextBox x:Name="Username" HorizontalAlignment="Left" Height="23" Margin="88,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="312" KeyDown="Username_KeyDown"/>
-        <TextBox x:Name="Password" HorizontalAlignment="Left" Height="23" Margin="88,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="312" KeyDown="Password_KeyDown"/>
         <Label x:Name="loginLabel" Content="Login" HorizontalAlignment="Left" Margin="82,10,0,0" VerticalAlignment="Top" Width="67" FontSize="11" FontFamily="Segoe UI Semibold" Height="25"/>
         <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Margin="254,115,0,0" VerticalAlignment="Top" Width="146" Height="30" FontWeight="Bold" FontFamily="Segoe UI Semibold" Click="LoginButton_Click">
             <Button.Background>
@@ -26,5 +25,6 @@
         </Button>
         <Label x:Name="lblUsername" Content="Username:" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Height="23" Width="78" FontSize="11"/>
         <Label x:Name="lblPassword" Content="Password:" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="78" Height="23" FontSize="11"/>
+        <PasswordBox x:Name="Password" HorizontalAlignment="Left" Margin="88,76,0,0" VerticalAlignment="Top" Width="312" Height="23" KeyDown="Password_KeyDown"/>
     </Grid>
 </Window>
