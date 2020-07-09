@@ -23,5 +23,19 @@ namespace WPFStockControlSystemWPFVersion
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Admin_Menu adminMenu = new Admin_Menu();
+            adminMenu.Show();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            CreateTablesForm createTables = new CreateTablesForm();
+            createTables.Show();
+            this.Close();
+        }
     }
 }

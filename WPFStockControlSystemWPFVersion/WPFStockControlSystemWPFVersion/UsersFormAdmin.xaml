@@ -6,21 +6,21 @@
         xmlns:local="clr-namespace:WPFStockControlSystemWPFVersion"
         xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="WPFStockControlSystemWPFVersion.UsersFormAdmin"
         mc:Ignorable="d"
-        Title="UsersFormAdmin" Height="628.5" Width="496.919">
+        Title="UsersFormAdmin" Height="628.5" Width="565.419">
     <Grid>
-        <DataGrid x:Name="dataGridView1" HorizontalAlignment="Left" Height="532" Margin="10,41,0,0" VerticalAlignment="Top" Width="342" TextOptions.TextFormattingMode="Display"/>
+        <DataGrid x:Name="dataGridView1" HorizontalAlignment="Left" Height="532" Margin="10,41,0,0" VerticalAlignment="Top" Width="404" TextOptions.TextFormattingMode="Display"/>
         <Label x:Name="titleForUsers" Content="Add or Delete Users" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="209" TextOptions.TextFormattingMode="Display"/>
-        <Button x:Name="btnViewUsers" Content="View Users" HorizontalAlignment="Left" Margin="357,121,0,0" VerticalAlignment="Top" Width="116" Height="40" Background="#FF52E23B" BorderBrush="{x:Null}" BorderThickness="0" Click="btnViewUsers_Click" TextOptions.TextFormattingMode="Display" FontWeight="Bold" FontSize="18"/>
-        <Label x:Name="usernameLbl" Content="Username: " HorizontalAlignment="Left" Margin="357,357,0,0" VerticalAlignment="Top" Width="70" TextOptions.TextFormattingMode="Display"/>
-        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="22" Margin="357,389,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" TextOptions.TextFormattingMode="Display"/>
-        <Label x:Name="passwordLbl" Content="Password:" HorizontalAlignment="Left" Margin="357,419,0,0" VerticalAlignment="Top" Width="70" TextOptions.TextFormattingMode="Display"/>
-        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="22" Margin="357,451,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" TextOptions.TextFormattingMode="Display"/>
-        <ComboBox x:Name="cmbAdmin" HorizontalAlignment="Left" Margin="357,506,0,0" VerticalAlignment="Top" Width="116" Height="22" TextOptions.TextFormattingMode="Display">
+        <Button x:Name="btnViewUsers" Content="View Users" HorizontalAlignment="Left" Margin="424,121,0,0" VerticalAlignment="Top" Width="116" Height="40" Background="#FF52E23B" BorderBrush="{x:Null}" BorderThickness="0" Click="btnViewUsers_Click" TextOptions.TextFormattingMode="Display" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="usernameLbl" Content="Username: " HorizontalAlignment="Left" Margin="424,357,0,0" VerticalAlignment="Top" Width="70" TextOptions.TextFormattingMode="Display"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="22" Margin="424,389,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" TextOptions.TextFormattingMode="Display"/>
+        <Label x:Name="passwordLbl" Content="Password:" HorizontalAlignment="Left" Margin="424,419,0,0" VerticalAlignment="Top" Width="70" TextOptions.TextFormattingMode="Display"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="22" Margin="424,451,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" TextOptions.TextFormattingMode="Display"/>
+        <ComboBox x:Name="cmbAdmin" HorizontalAlignment="Left" Margin="424,506,0,0" VerticalAlignment="Top" Width="116" Height="22" TextOptions.TextFormattingMode="Display">
             <System:String>Yes</System:String>
             <System:String>No</System:String>
         </ComboBox>
-        <Label x:Name="adminLbl" Content="Admin Access" HorizontalAlignment="Left" Margin="357,478,0,0" VerticalAlignment="Top" TextOptions.TextFormattingMode="Display"/>
-        <Button x:Name="btnAddUser" Content="ADD" HorizontalAlignment="Left" Margin="357,533,0,0" VerticalAlignment="Top" Width="116" Height="40" BorderBrush="{x:Null}" BorderThickness="0" Click="btnAddUser_Click" TextOptions.TextFormattingMode="Display" FontWeight="Bold" FontSize="18">
+        <Label x:Name="adminLbl" Content="Admin Access" HorizontalAlignment="Left" Margin="424,478,0,0" VerticalAlignment="Top" TextOptions.TextFormattingMode="Display"/>
+        <Button x:Name="btnAddUser" Content="ADD" HorizontalAlignment="Left" Margin="424,533,0,0" VerticalAlignment="Top" Width="116" Height="40" BorderBrush="{x:Null}" BorderThickness="0" Click="btnAddUser_Click" TextOptions.TextFormattingMode="Display" FontWeight="Bold" FontSize="18">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -28,20 +28,20 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <TextBox x:Name="txtDelUserName" HorizontalAlignment="Left" Height="22" Margin="357,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" TextOptions.TextFormattingMode="Display"/>
-        <Label x:Name="usernameDelLbl" Content="Username: " HorizontalAlignment="Left" Margin="357,213,0,0" VerticalAlignment="Top" Width="70" TextOptions.TextFormattingMode="Display"/>
-        <Button x:Name="btnDeleteUser" Content="DELETE USER" HorizontalAlignment="Left" Margin="357,272,0,0" VerticalAlignment="Top" Width="116" Height="40" Background="#FFE47878" BorderBrush="Black" Click="btnDeleteUser_Click" TextOptions.TextFormattingMode="Display" FontWeight="Bold"/>
-        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="398,41,0,0" VerticalAlignment="Top" Width="75" Height="75" Foreground="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Cursor="Hand" Click="button1_Click">
+        <TextBox x:Name="txtDelUserName" HorizontalAlignment="Left" Height="22" Margin="424,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" TextOptions.TextFormattingMode="Display"/>
+        <Label x:Name="usernameDelLbl" Content="Username: " HorizontalAlignment="Left" Margin="424,213,0,0" VerticalAlignment="Top" Width="70" TextOptions.TextFormattingMode="Display"/>
+        <Button x:Name="btnDeleteUser" Content="DELETE USER" HorizontalAlignment="Left" Margin="424,272,0,0" VerticalAlignment="Top" Width="116" Height="40" Background="#FFE47878" BorderBrush="Black" Click="btnDeleteUser_Click" TextOptions.TextFormattingMode="Display" FontWeight="Bold"/>
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="465,41,0,0" VerticalAlignment="Top" Width="75" Height="75" Foreground="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Cursor="Hand" Click="button1_Click">
             <Button.Background>
                 <ImageBrush ImageSource="New Project (2).png"/>
             </Button.Background>
         </Button>
-        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="2" Margin="357,318,0,0" VerticalAlignment="Top" Width="116"/>
-        <Label x:Name="AddUserText" Content="Add User" HorizontalAlignment="Center" Margin="387,324,40,0" VerticalAlignment="Top" Height="22" TextOptions.TextFormattingMode="Display" Width="62"/>
-        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="2" Margin="357,351,0,0" VerticalAlignment="Top" Width="116"/>
-        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="2" Margin="357,173,0,0" VerticalAlignment="Top" Width="116"/>
-        <Label x:Name="DelUserText" Content="Delete User" HorizontalAlignment="Center" Margin="379,180,36,0" VerticalAlignment="Top" Height="22" Width="74" TextOptions.TextFormattingMode="Display"/>
-        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="2" Margin="357,206,0,0" VerticalAlignment="Top" Width="116"/>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="2" Margin="424,318,0,0" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="AddUserText" Content="Add User" HorizontalAlignment="Center" Margin="454,325,46,0" VerticalAlignment="Top" Height="22" TextOptions.TextFormattingMode="Display" Width="62"/>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="2" Margin="424,352,0,0" VerticalAlignment="Top" Width="116"/>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="2" Margin="424,173,0,0" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="DelUserText" Content="Delete User" HorizontalAlignment="Center" Margin="444,180,44,0" VerticalAlignment="Top" Height="22" Width="74" TextOptions.TextFormattingMode="Display"/>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="2" Margin="424,207,0,0" VerticalAlignment="Top" Width="116"/>
 
     </Grid>
 </Window>
