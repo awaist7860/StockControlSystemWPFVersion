@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPFStockControlSystemWPFVersion.View_or_Edit_Tables"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFStockControlSystemWPFVersion"
+        mc:Ignorable="d"
+        Title="View_or_Edit_Tables" Height="693" Width="1294">
+    <Grid>
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="1201,10,0,0" VerticalAlignment="Top" Width="75" Height="75" Foreground="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Cursor="Hand" ClipToBounds="True" Click="button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="New Project (2).png"/>
+            </Button.Background>
+        </Button>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="579" Margin="10,73,0,0" VerticalAlignment="Top" Width="307" TextOptions.TextFormattingMode="Display"/>
+        <Label x:Name="label" Content="View or Edit Tables" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="36" TextOptions.TextFormattingMode="Display"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="540" Margin="322,112,0,0" VerticalAlignment="Top" Width="733" TextOptions.TextFormattingMode="Display"/>
+        <Label x:Name="label2" Content="Table Name: " HorizontalAlignment="Left" Margin="322,73,0,0" VerticalAlignment="Top" Height="34" FontSize="20" TextOptions.TextFormattingMode="Display"/>
+        <Button x:Name="btnViewAllTables" Content="View all tables" HorizontalAlignment="Left" Margin="1060,112,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="22" TextOptions.TextFormattingMode="Display"/>
+        <Button x:Name="btnPrint" Content="Print Current Table" HorizontalAlignment="Left" Margin="1060,177,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="22" TextOptions.TextFormattingMode="Display"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="1060,242,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="22" TextOptions.TextFormattingMode="Display"/>
+        <TextBox x:Name="txtViewTableName" HorizontalAlignment="Left" Height="22" Margin="1060,367,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" TextOptions.TextFormattingMode="Display" MaxLines="1" FontSize="16"/>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="3" Margin="1060,314,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="label1" Content="Table Name: " HorizontalAlignment="Left" Margin="1060,327,0,0" VerticalAlignment="Top" Width="200" TextOptions.TextFormattingMode="Display" FontSize="18"/>
+        <Button x:Name="btnViewData" Content="View Table" HorizontalAlignment="Left" Margin="1060,404,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="22" TextOptions.TextFormattingMode="Display"/>
+        <Button x:Name="btnEdit" Content="Edit Table" HorizontalAlignment="Left" Margin="1060,469,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="22" TextOptions.TextFormattingMode="Display"/>
+
+    </Grid>
+</Window>

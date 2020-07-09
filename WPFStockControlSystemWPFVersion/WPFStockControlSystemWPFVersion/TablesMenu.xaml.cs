@@ -37,5 +37,12 @@ namespace WPFStockControlSystemWPFVersion
             createTables.Show();
             this.Close();
         }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            View_or_Edit_Tables viewTables = new View_or_Edit_Tables();
+            viewTables.Show();
+            this.Close();
+        }
     }
 }

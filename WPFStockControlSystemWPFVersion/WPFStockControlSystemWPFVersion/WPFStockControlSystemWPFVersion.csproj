@@ -102,6 +102,9 @@
     <Compile Include="UsersFormAdmin.xaml.cs">
       <DependentUpon>UsersFormAdmin.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View or Edit Tables.xaml.cs">
+      <DependentUpon>View or Edit Tables.xaml</DependentUpon>
+    </Compile>
     <Page Include="Admin Menu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -142,6 +145,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UsersFormAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View or Edit Tables.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
