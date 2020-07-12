@@ -9,8 +9,8 @@
     <Grid>
         <Button x:Name="button1" Content="Create a Table" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="263" Height="60" FontSize="20" TextOptions.TextFormattingMode="Display" BorderBrush="{x:Null}" Click="button1_Click"/>
         <Button x:Name="button2" Content="View or Edit Tables" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="263" Height="60" BorderBrush="{x:Null}" FontSize="20" TextOptions.TextFormattingMode="Display" Click="button2_Click"/>
-        <Button x:Name="button3" Content="Import Data" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top" Width="263" Height="60" FontSize="20" TextOptions.TextFormattingMode="Display" BorderBrush="{x:Null}"/>
-        <Button x:Name="button4" Content="Delete Tables" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Width="263" BorderBrush="{x:Null}" Height="60" TextOptions.TextFormattingMode="Display" FontSize="20"/>
+        <Button x:Name="button3" Content="Import Data" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top" Width="263" Height="60" FontSize="20" TextOptions.TextFormattingMode="Display" BorderBrush="{x:Null}" Click="button3_Click"/>
+        <Button x:Name="button4" Content="Delete Tables" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Width="263" BorderBrush="{x:Null}" Height="60" TextOptions.TextFormattingMode="Display" FontSize="20" Click="button4_Click"/>
         <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="198,270,0,0" VerticalAlignment="Top" Width="75" Height="75" Foreground="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Cursor="Hand" Click="button_Click">
             <Button.Background>
                 <ImageBrush ImageSource="New Project (2).png"/>

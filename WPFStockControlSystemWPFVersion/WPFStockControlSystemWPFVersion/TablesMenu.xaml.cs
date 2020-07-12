@@ -44,5 +44,19 @@ namespace WPFStockControlSystemWPFVersion
             viewTables.Show();
             this.Close();
         }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            Delete_Tables delTables = new Delete_Tables();
+            delTables.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            ImportingData dataImport = new ImportingData();
+            dataImport.Show();
+            this.Close();
+        }
     }
 }

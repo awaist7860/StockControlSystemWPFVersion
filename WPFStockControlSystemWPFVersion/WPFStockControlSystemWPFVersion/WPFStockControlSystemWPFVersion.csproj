@@ -89,8 +89,14 @@
     <Compile Include="CreateTablesForm.xaml.cs">
       <DependentUpon>CreateTablesForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Delete Tables.xaml.cs">
+      <DependentUpon>Delete Tables.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ImportingData.xaml.cs">
+      <DependentUpon>ImportingData.xaml</DependentUpon>
     </Compile>
     <Compile Include="Printing.cs" />
     <Compile Include="TablesMenu.xaml.cs">
@@ -113,7 +119,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Delete Tables.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ImportingData.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
